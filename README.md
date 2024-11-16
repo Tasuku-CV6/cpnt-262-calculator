@@ -6,7 +6,7 @@ This is a simple command-line calculator built with JavaScript. It supports four
 
 1. Clone this repository to your local machine.
 2. Open your terminal and navigate to the project directory.
-3. Run the following command with your numbers and operator: (node calculator.js 2 + 2)
+3. Run the following command with your numbers and operator: Example: (node calculator.js 2 + 2)
 
    ```bash
    node calculator.js <number1> <operator> <number2>
@@ -33,4 +33,4 @@ process.argv.length:
 
 ParseFloat():
 
-- parseFloat() is used to convert the value of process.argv[2] (which is a string) into a floating-point number. This is important because the command-line arguments are always strings by default.
+- parseFloat() is used to convert the value of process.argv[2] and process.argv[4] (which is a string) into a floating-point number. This is important because the command-line arguments are always strings by default.
